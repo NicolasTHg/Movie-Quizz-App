@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  text-align: center;
+  background-color:#333;
+  color: #ecf0f1;
+}
+
+#person, #movie{
+  margin-left : 5%;
+  margin-right : 5%;
+  padding-top :20px;
+  padding-bottom :20px;
+}
+
+#person{
+  background: radial-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/70deccb9-9b6c-4be1-b781-18dd1bcd9264/6e69ee62-e75f-4c5a-a56b-2d222564f8f4/US-en-20210301-popsignuptwoweeks-perspective_alpha_website_large.jpg) no-repeat center !important;
+  background-size: cover !important;
+}
+
+#movietitle, #personname{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#movie *,#person * {
+    margin-bottom: 3px;
+}
+#formMovie *,#formActor * {
+    margin-bottom: 4px;
+}
+img {
+    max-width: 100px;
+    max-height: 150px;
+    border: 2px solid;
+    border-color: #ecf0f1;
+}
+#netflix{
+  max-width: 100%;
+  max-height: none;
+  border : none;
+}
+
+#wrong {
+  color: red;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#success {
+  color: lime;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}

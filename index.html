@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="#" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel='stylesheet' href='index.css'/>
+    <title>Movie Quizz</title>
+  </head>
+  <body>
+    <img id="netflix" src="https://fontmeme.com/permalink/210318/c77725b06e0747e346277d2a4ed0bbaa.png" alt="netflix-font" border="0">
+    <br>
+    <div id="quizz">
+      <div id="movie">
+        <div id="movieinfo"></div>
+        <form id="formActor" name="formActor" onsubmit="clickOnSubmitButton();return false;">
+          <label for="actorname">Enter the director or one of the actors of this movie </label><br>
+          <input type="text" id="actorname" name="actorname" required><br>
+          <input id="submitbutton" type="button" value="Submit">
+        </form>
+        <div id="wrong"></div>
+      </div>
+    </div>
+  </body>
+
+    <script src="index.js"></script>
+</html>
